@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Exc-10</title>
+</head>
+<body>
+    <script>
+        var users =[
+           {
+            name: 'alireza' ,
+            gender: 'male' 
+           } ,
+           {
+            name: 'x' ,
+            gender: 'male' 
+           } ,
+           {
+            name: 'y' ,
+            gender: 'female' 
+           } ,
+           {
+            name: 'q' ,
+            gender: 'female' 
+           } ,
+           {
+            name: 'cf' ,
+            gender: 'male' 
+           } ,
+           {
+            name: 'v' ,
+            gender: 'male' 
+           } 
+        ]
+        var female=[];
+        var male=[];
+
+        for( var i=0; i< users.length ;i++){
+           if( users[i].gender =='female'){
+             female.push(users[i]);
+           }else{
+             male.push(users[i]);
+           }
+        } 
+        console.log("females: ");
+        console.log(female);
+        console.log("males: ");
+        console.log(male);
+    </script>
+</body>
+</html>
